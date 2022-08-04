@@ -1,0 +1,78 @@
+BUET CSE FEST 2022
+
+HACKATHON
+~DEVOPS PROBLEM STATEMENT~
+
+
+
+
+
+
+
+
+
+
+
+Scenario
+Consider a website for a university that manages academic information. The platform is used for student registration, course registration, course addition/subtraction, result publication, personal information handling etc.  The website is still young and frequently goes through changes with changes in policy or requirements. The load on the site remains consistent most of the time, but during result publication and course registration load surpasses the capacity.
+
+
+You are presented with three different stages of tasks that resemble real life devops scenarios.
+
+Stage-1
+Your team has to build a simple application for an admin to add offered courses. The site should have a frontend but does not need to be well furnished for now. You can follow this sample entity-relation diagram (ERD) for convenience:
+
+
+
+
+
+When you are building a website, it is important that you check all the features and test them thoroughly. Now you need to automate the testing process because when you add a new feature you most certainly do not want to test your previous functionalities again. Once you’ve established your site is ready for usage, you need to deploy the application so it is accessible to users. Now automate your integration and testing tasks so that you can modify and add new features seamlessly further down the line. In short, you are expected to create a full pipeline for testing, integration and deployment.
+
+
+Stage-2:
+Now you should upgrade your website to contain some new features:
+
+Admins can add students to the platform
+Students can register for academic courses.
+
+You can add changes following the ERD below for convenience:
+
+
+
+
+Now sometimes students face problems during registration and it’s necessary for admins to be notified as soon as this happens. You should design a system which will constantly monitor your website, log when issues are found and notify admins if required. It is very helpful for analyzing the state of your website if you have a real-time view of the status of applications as well as infrastructure in the production environment.
+
+
+When you run an application built on a certain environment, often it is seen that dependencies do not match on a different environment or setup. This is especially problematic when replicating development and production environments. Often you need to deploy to many servers with some defined infrastructural requirements. To mitigate these problems, you should create abstractions for the dependencies and infrastructural requirements. By utilizing the concept of abstraction and automation you can make your application portable and flexible and make the development process seamless and minimize errors! Feel free to use any set of tools which you think will suit your system best.
+
+
+Stage-3:
+At this stage, you should add the following features to your website:
+
+
+Admin adds results for students
+Students get to see their results with ID (secure authentication is not required)
+
+When result is published or course registration is opened, your website is expected to process a huge number of requests, which can be substantially larger than normal times. To manage such situations, you need to upgrade your load handling capacity. You have to determine what kind of load you need to handle (read heavy / write heavy) and how you will balance the load. Again since this is also not the typical case you should make sure your system can dynamically upgrade its capacity when required. Lastly you should identify the points of failure of your system and try to minimize them as much as possible.
+
+
+Your task is to take necessary measures to handle such a situation. Feel free to use any tools you want to test such a scenario and prove how well your system can handle such critical situations. You will receive partial points even if you are unable to implement the ideal system but still manage to present a design which will handle the use case. You will receive additional points if you can solve relevant problems for the system beyond what was mentioned in the scope.
+
+
+Make sure you spend minimal time on developing the application features and focus more on the DevOps parts of the tasks
+
+
+
+
+General Instructions
+
+
+These are some general instructions for participants of any segment:
+
+Participants will need to start a new Github repository onsite and submit it at the end of the competition.
+The project must be developed on the day of the Hackathon. Any project which was developed (even partially) in advance will not be accepted.
+If participants choose to use publicly available code, then they must properly attribute the source.
+Unless otherwise specified, participants can choose their own tech stack.
+
+Any unfair attempts, misbehavior or breach of terms will result in disqualification. The organizers reserve the right to make final decisions. Participants will be notified if there is notable modification in existing rules.
+
